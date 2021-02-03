@@ -4,9 +4,6 @@ import sys
 import csv
 import math
 
-
-
-
 # Value: List of integers the form [Range (km), Average Speed (km/h), Number of Seats, Costs per flight hour]
 characteristics_by_type = None
 
