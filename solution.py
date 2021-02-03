@@ -6,12 +6,7 @@ import math
 
 
 
-# Part A
-# Question 1
-# Here we need to find: Total cost = Hours flown * Costs/hour
 
-# Creating a dictionary to store "Characteristics" for each "Aircraft Type"
-# Key: Aircraft Type
 # Value: List of integers the form [Range (km), Average Speed (km/h), Number of Seats, Costs per flight hour]
 characteristics_by_type = None
 
@@ -54,7 +49,6 @@ for aircraft_type in characteristics_by_type:
     print "{0} : {1} x {2} = {3} ".format(aircraft_type, hours_flown, cost_per_hour, total_cost_by_type[aircraft_type])
 
 # Part A
-# Question 2
 # Here we need to find: Total cost / (number of seats * number of km flown)
 # We have already found total cost above
 # Number of seats by type have already been given
